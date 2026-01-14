@@ -23,3 +23,5 @@ out*
 test*
 test*.lua
 build/
+__astcache/
+__history/

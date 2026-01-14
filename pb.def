@@ -1,0 +1,9 @@
+; ACHTUNG: diese Datei darf während dem Linken *NICHT* in dem IDE-Editor
+;          geöffnet sein, sonst kommt die Fehlermeldung "invalid ItemSpec"
+;          und der Linker kann nicht linken!
+
+LIBRARY protobuf
+EXPORTS
+
+luaopen_protobuf = _luaopen_protobuf
+luaopen_protobuf_safe = _luaopen_protobuf_safe
